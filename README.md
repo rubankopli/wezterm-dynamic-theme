@@ -64,6 +64,10 @@ A few parameters are provided at the top of the `wezterm-background.lua` file to
 - The 'parallax_scaling_factor' simply multiplies the parallax 'scrolling speed' for all the scrolling layers by the value given. The other values set the base 'scrolling speed'. All of the values correspond to the `parallax` option inside the `attachment` option for a background layer.
 
 
+## Acknowledgements
+I was unable to find the source for the 'city' and 'indoors' base images that I used, but I will gladly add those acknowledgements here if I find that out!
+
+
 ---
 
 *Distributed under the MIT License. See `LICENSE.txt` for more information.*
