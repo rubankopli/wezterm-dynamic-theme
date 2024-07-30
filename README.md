@@ -64,7 +64,7 @@ The 'opacity' options correspond to the option of the same name for a background
 The 'parallax_scaling_factor' simply multiplies the parallax 'scrolling speed' for all the scrolling layers by the value given. The other values set the base 'scrolling speed'. All of the values correspond to the `parallax` option inside the `attachment` option for a background layer.
 
 
-
+---
 
 *Distributed under the MIT License. See `LICENSE.txt` for more information.*
 
