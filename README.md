@@ -22,7 +22,7 @@ I borrowed heavily from the wezterm official documentation's [Parallax Example](
 - [Wezterm](https://github.com/wez/wezterm)
 
 ### Setup
-Setting up the theme should be quick and easy!
+Setting up the theme is quick and easy!
 1. If you haven't set up your wezterm configuration file already, do so (I reccomend creating it in `~/.config/wezterm/wezterm.lua`) and add at least the following lines from the [quick start guide](https://wezfurlong.org/wezterm/config/files.html):
 ```lua
 -- Pull in the wezterm API
@@ -59,9 +59,9 @@ dynamic_background.apply_to_config(config)
 
 ### Customizing the Theme
 A few parameters are provided at the top of the `wezterm-background.lua` file to allow you to adjust various aspects of the theme. Official documentation on the wezterm background parameters can be found at the [official documentation page](https://wezfurlong.org/wezterm/config/lua/config/background.html) for wezterm's background configuration.
-The 'dimmer' options correspond to the `hsb` option for a background layer.
-The 'opacity' options correspond to the option of the same name for a background layer.
-The 'parallax_scaling_factor' simply multiplies the parallax 'scrolling speed' for all the scrolling layers by the value given. The other values set the base 'scrolling speed'. All of the values correspond to the `parallax` option inside the `attachment` option for a background layer.
+- The 'dimmer' options correspond to the `hsb` option for a background layer.
+- The 'opacity' options correspond to the option of the same name for a background layer.
+- The 'parallax_scaling_factor' simply multiplies the parallax 'scrolling speed' for all the scrolling layers by the value given. The other values set the base 'scrolling speed'. All of the values correspond to the `parallax` option inside the `attachment` option for a background layer.
 
 
 ---
